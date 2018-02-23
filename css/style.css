@@ -1,0 +1,52 @@
+/* CSS Start */
+body {
+	color: #fff;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+
+}
+
+h1 {
+	font-family: Tahoma, Arial, Sans-serif;
+	font-size: 54px;
+	letter-spacing: 2px;
+	line-height: 1.3;
+
+}
+span {color: #f4d4ff;}
+p:last-of-type {margin-bottom: 65px;}
+
+html {
+	/*background-image: url('../images/stuff.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;*/
+
+	background: url('../images/stuff.jpg') fixed center no-repeat;
+
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+}
+#container {
+	margin: 20px auto;
+	width: 1024px;s
+}
+#info {
+	margin-bottom: 60px;
+	width: 800px;
+}
+.button {
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 40px;
+	color: #fff;
+	font-size: 20px;
+	padding: 15px 65px;
+	text-decoration: none;
+}
+.button:hover {
+	background: rgba(0,0,0,0.5);
+}
